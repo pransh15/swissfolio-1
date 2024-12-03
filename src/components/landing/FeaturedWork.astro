@@ -2,12 +2,20 @@
 // Define the features array directly in the Astro component
 const features = [
   {
-    "url": "https://www.behance.net/gallery/165124499/Dowob-All-in-One-Online-Electronic-Store",
-    "title": "dowob"
+    url: "https://www.behance.net/gallery/165124499/Dowob-All-in-One-Online-Electronic-Store",
+    title: "dowob",
   },
   {
-    "url": "https://www.behance.net/gallery/163417099/Happy-Home",
-    "title": "Happy Home"
+    url: "https://www.behance.net/gallery/163417099/Happy-Home",
+    title: "Happy Home",
+  },
+  {
+    url: "https://www.behance.net/gallery/158117839/gray-Mobile-UIUX-Design#",
+    title: "gray - flexible currency",
+  },
+  {
+    url: "https://www.behance.net/gallery/158114005/Nomads-UIUX-Design#",
+    title: "nomads - cowowking",
   },
   // Add more features as needed...
 ];
@@ -19,12 +27,14 @@ const features = [
       <div
         class="h-0.5 bg-secondary"
         data-aos="fade-up"
-        data-aos-duration="1000">
+        data-aos-duration="1000"
+      >
       </div>
       <h3
         class="text-secondary text-xs font-medium"
         data-aos="fade-up"
-        data-aos-duration="1500">
+        data-aos-duration="1500"
+      >
         <span>Popular</span>
         <span class="font-bold">featured</span>
         <span class="italic">work</span>
@@ -32,7 +42,8 @@ const features = [
       <div
         class="h-1.5 bg-secondary"
         data-aos="fade-up"
-        data-aos-duration="2000">
+        data-aos-duration="2000"
+      >
       </div>
       <div class="h-3 bg-secondary" data-aos="fade-up" data-aos-duration="2500">
       </div>
@@ -41,18 +52,21 @@ const features = [
       <div
         class="h-12 bg-secondary"
         data-aos="fade-up"
-        data-aos-duration="3000">
+        data-aos-duration="3000"
+      >
       </div>
       <div
         class="h-24 bg-secondary"
         data-aos="fade-up"
         data-aos-duration="3000"
-        data-aos-delay="150">
+        data-aos-delay="150"
+      >
       </div>
     </div>
 
     <ul
-      class="mx-auto flex flex-col lg:flex-row text-left gap-3 items-start text-secondary mt-3">
+      class="mx-auto flex flex-col lg:flex-row text-left gap-3 items-start text-secondary mt-3"
+    >
       {
         features.map((template) => (
           <>
